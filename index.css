@@ -1,0 +1,88 @@
+body{
+  background-color: black;
+  
+}
+.container{
+  display: grid;
+  height: 100vh;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.4fr 1.1fr 1fr;
+  background-color:rgba(232, 247, 228, 0.785);
+  grid-template-areas: 
+  "row row raj raj"
+  " raj1 main main main"
+  "raj1 raj2 raj3 raj4"
+  "raj1 footer footer footer";
+ padding: 0ch;
+}
+row{
+  background-color:rgba(62, 82, 60, 0.888);
+  grid-area:row ;
+  color: white;
+  padding-left: 20px;
+  padding-top: 30px;
+  
+}
+
+main{
+  background-color:rgba(149, 157, 147, 0.057);
+grid-area: main;
+text-align: center;
+margin-top: 1cm;
+margin-left: 1cm;
+margin-right: 1cm;
+}
+#raj{
+  background-color:rgba(62, 82, 60, 0.888);
+  grid-area: raj;
+  color: white;
+  padding-top: 30px;
+  font-size: xx-large;
+}
+#raj1{
+  background-color: rgb(57, 50, 48);
+  grid-area:raj1 ;
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;margin-bottom: 1cm;
+  border-radius:15px ;
+}
+#raj2{
+  background-color: rgb(57, 50, 48);
+grid-area: raj2;
+margin-top: 2cm;
+margin-left: 1cm;
+margin-right: 1cm;
+border-radius:15px
+ 
+}
+#raj3{
+  background-color: rgb(57, 50, 48);
+  grid-area: raj3;
+  margin-top: 2cm;
+margin-left: 1cm;
+margin-right: 1cm;
+border-radius:15px
+}
+#raj4{
+  background-color: rgb(57, 50, 48);;
+  grid-area: raj4;
+  margin-top: 2cm;
+margin-left: 1cm;
+margin-right: 1cm; border-radius:15px
+}
+footer{
+  background-color: rgb(57, 50, 48);
+  grid-area: footer;
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 1cm;margin-bottom:1cm;
+  border-radius:15px
+}
+input[type=search]{
+ height: 40px;
+ border-radius: 10px;
+ background-color: rgb(57, 50, 48);
+ padding-bottom: 8px;
+}
+
